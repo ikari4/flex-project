@@ -75,7 +75,7 @@ a {
 }
 
 button {
-    background-color: blue;
+    background-color: #3882f6;
     border-radius: 10px;
     height: 50px;
     width: 150px;
@@ -85,4 +85,48 @@ button {
 .btext {
     color: #f9faf8;
     font-size: 20px;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.top2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937; 
+    padding: 20px;
+}
+
+.bottom2 {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    gap: 18px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.boxn {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.caption {
+    max-width: 120px;
+    text-wrap: wrap;
+    font-size: 10px;
+    text-align: center;
 }
