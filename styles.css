@@ -1,0 +1,88 @@
+/* flex-project style sheet */
+
+* {
+    font-family: "Roboto";
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    padding: 0px 100px;
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.linkbox {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex end;
+    gap: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.sec1 {
+    display: flex;
+    background-color: #1f2937;
+    /* justify-content: flex-end; */
+    height: 500px;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.left1 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 0 30px;
+    /* gap: 0 50px; */
+}
+
+.right1 {
+    display: flex;
+    flex-basis: 80%;
+    background-color: gray;
+    height: 200px;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+}
+
+.left1top {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.left1mid {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button {
+    background-color: blue;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.btext {
+    color: #f9faf8;
+    font-size: 20px;
+}
